@@ -51,9 +51,11 @@ header h1 {
 
 /* footer */
 footer {
-    background: #fce138;
-    width: 100%;
-    padding: 40px 35px;
+    background-color: #fce138;
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 footer h2 {
     display: inline;
