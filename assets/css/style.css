@@ -78,19 +78,31 @@ section {
 /* hero styles */
 .hero {
     background-image: url("../images/hero-bg.jpg");
-    height: 600px;
     background-size: cover;
-    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .hero-form {
     border: 3px solid #024e76;
     background-color: #fce138;
     padding: 20px;
-    width: 500px;
     color: #024e76;
-    position: absolute;
-    bottom: 190px;
-    right: 140px;
+    width: 40%;
+    margin: 3.5%;
+}
+.hero-cta{
+    width: 35%;
+    text-align: right;
+    margin: 3.5%;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.3;
+}
+.hero-cta h2 {
+    font-style: italic;
+    font-size: 55px;
+    color: #fce138;
 }
 .hero-form button {
     color: #fce138;
